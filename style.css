@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Inconsolata";
+}
+
+.content {
+  max-width: 1100px;
+}
+
+.content .demo span {
+  display: inline-block;
+  position: relative;
+  opacity: 0;
+  transition: 1s;
+  font-size: 4em;
+  transform: translateY(100px);
+}
+
+.content p span {
+  display: inline-block;
+  position: relative;
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 1.6em;
+  transition-delay: 2s;
+}
